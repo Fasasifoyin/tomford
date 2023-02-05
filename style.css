@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.up{
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: black;
+    /* height: 15vh; */
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header2{
+    display: flex;
+    gap: 15px;
+}
+
+.header3{
+    display: none;
+}
+
+.header a{
+    font-size: 15px;
+    color: rgb(118,118,118);
+}
+
+.header a:hover{
+    color: white;
+}
+
+.search{
+      border: none;
+      border-bottom: 1px solid ;
+      color: rgb(118,118,118);
+      background-color: black;
+}
+
+.searchimage{
+    width: 20px;
+    filter: brightness(0) invert(1);
+    position: absolute;
+    right: 60px;
+}
+
+.searchimage2{
+     display: none;
+}
+
+.tomford{
+    display: flex;
+    align-items: last baseline;
+}
+
+.tomford h1{
+    color: white;
+    font-size: 45px;
+}
+
+.tomford a{
+    margin-left: 20px;
+    color: rgb(118,118,118);
+    font-size: 25px;
+}
+
+.tomford a:hover{
+    color: white;
+}
+
+.container{
+    position: relative;
+}
+
+.twomen{
+    display: block;
+    width: 100%;
+    height: 86vh;
+}
+
+.twomenwri{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.whole{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.containera{
+    color: white;
+    font-size: 15px;
+}
+
+.containerb{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.containerc{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container1{
+    position: relative;
+}
+
+.menglasses{
+    display: block;
+    width: 100%;
+    height: 70vh;
+}
+
+.shopnow{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.container2{
+    position: relative;
+}
+
+.womenpre{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.container3{
+    position: relative;
+}
+
+.womeneye{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.womenglasses{
+    display: block;
+    height: 70vh;
+    width: 200%;
+}
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+}
+
+.footer2{
+    padding: 20px 30px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.first h1{
+    color: white;
+    font-size: 25px;  
+}
+
+.first h6{
+    color: rgb(118,118,118);
+}
+
+.first input{
+    width: 350px;
+    height: 35px;
+}
+
+::placeholder{
+    padding-left: 10px;
+}
+
+hr{
+    margin-top: 25px;
+    border: 1px solid rgb(118,118,118,0.5);
+}
+
+.color{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+     margin: 60px 0;
+}
+
+.color div{
+    display: flex;
+    gap: 15px;
+}
+
+.color a{
+    color: rgb(118,118,118);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.color a:hover{
+    text-decoration: underline;
+}
+
+.cus{
+    color:  white !important;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.last{
+    margin-top: 20px;
+}
+
+.last p, a{
+    color: white;
+    font-size: 14px;
+}
+
+.last a:hover{
+    text-decoration: underline;
+}
+
+.alone{
+    display: none;
+}
+
+@media(max-width:768px){
+.up{
+    padding: 10px;
+}
+
+.header{
+    display: none;
+}
+
+.header3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 a{
+    color: rgb(118,118,118);
+}
+
+.header3 a:hover{
+    color: white;
+}
+
+.tomford{
+    justify-content: space-between;
+}
+
+.tomford h1{
+    font-size: 35px;
+}
+
+.tomford a{
+    display: none;
+}
+
+.searchimage2{
+    display: flex;
+    width: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.none{
+    display: flex;
+}
+
+.alone{
+    display: block;
+    width: 100%;
+    height: 10vh;
+}
+
+.alone::placeholder{
+    font-size: 20px;
+}
+
+.twomen{
+    height: 70vh;
+}
+
+.whole{
+    display: block;
+}
+
+.womenglasses{
+    width: 100%;
+}
+
+.containerc, .containerb{
+    font-size: 17px;
+}
+
+.twomenwri, .shopnow, .womenpre, .womeneye{
+    left: 15px;
+}
+
+.footer{
+    height: 90%;
+}
+
+.footer2{
+    padding: 20px 10px;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: normal;
+}
+
+.first h1{
+    font-size: 15px;
+}
+
+.first h6{
+    font-size: 13px;
+}
+
+.first input{
+    margin-top: 15px;
+    width: 80%;
+}
+
+.color{
+    margin: 20px 0px;
+}
+
+.color div{
+    display: block;
+}
+
+.color div a{
+    font-size: 18px;
+    line-height: 35px;
+}
+}
